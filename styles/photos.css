@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fafafa; /* Header color for all pages */
+    color: #1f2937;
+    text-align: center;
+    padding: 1em;
+    border-radius: 15px; /* Increased roundness for a polished look */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.photo {
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1f2937;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #FFD700; /* Hover color - Gold */
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Slightly rounded corners for sections */
+}
+
+footer {
+    background-color: #ffffff; /* Footer color for all pages */
+    color: #1f2937;
+    text-align: center;
+    padding: 1em;
+    border-radius: 15px; /* Increased roundness for a polished look */
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Existing CSS styles remain unchanged */
+
+footer img {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    cursor: pointer;
+}
+
