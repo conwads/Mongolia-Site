@@ -74,6 +74,7 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
 footer {
     position: fixed;
     bottom: 0;
@@ -84,11 +85,10 @@ footer {
     align-items: center;
 }
 
-/* Existing CSS styles remain unchanged */
-
 footer img {
     width: 200px; /* Adjust the width as needed */
     height: auto; /* Maintain the aspect ratio */
     cursor: pointer;
+    margin: 0 10px; /* Add some margin between logos */
 }
 
