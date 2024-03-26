@@ -81,3 +81,22 @@ footer img {
     cursor: pointer;
     margin: 0 10px; /* Add some margin between logos */
 }
+
+/* Your existing CSS */
+
+.image-placeholder {
+    width: 200px; /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
+    background-color: #ccc; /* Placeholder color */
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.box img {
+    max-width: 100%; /* Ensures the image doesn't exceed the width of its container */
+    height: auto; /* Maintains the aspect ratio of the image */
+    display: block; /* Ensures proper rendering */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+}
+
+
