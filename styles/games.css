@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    color: black;
+}
+
+header,
+footer {
+    background-color: #ffffff;
+    color: #1f2937;
+    text-align: center;
+    padding: 1em;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1f2937;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #FFD700;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    width: 48%; /* Adjust the width as needed */
+    margin-bottom: 40px; /* Adjust the margin for more spacing */
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    cursor: pointer;
+    margin: 0 10px; /* Add some margin between logos */
+}
+
+/* Your existing CSS */
+/* CSS for Main Content Section */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust as needed */
+    align-items: flex-start; /* Changed from stretch to flex-start */
+    max-width: 100%; /* Added to ensure responsiveness */
+    padding: 20px; /* Added padding to space out the boxes */
+}
+
+/* CSS for Box */
+.box {
+    width: calc(50% - 20px); /* Adjust width as needed */
+    margin-bottom: 20px; /* Adjust margin as needed */
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+/* CSS for Content inside Box */
+.content {
+    text-align: center; /* Center align content */
+    padding: 20px; /* Added padding to space out the content */
+}
+
+/* CSS for Photo */
+.content img {
+    width: 100%; /* Ensure photos take up full width of the box */
+    height: auto;
+    border-radius: 10px; /* Optional: Adds rounded corners */
+}
+
+/* CSS for Title */
+.box h2 {
+    margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+
+
