@@ -4,10 +4,13 @@ body {
     padding: 0;
     background-color: #fafafa; /* Background color for all pages */
     color: black; /* Text color */
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-header {
-    background-color: #ffffff; /* Header color for all pages */
+header,
+footer {
+    background-color: #ffffff; /* Header and footer color for all pages */
     color: #1f2937;
     text-align: center;
     padding: 1em;
@@ -35,52 +38,17 @@ nav a {
 }
 
 nav a:hover {
-    color: #ffc400; /* Hover color - Gold */
+    color: #FFD700; /* Hover color - Gold */
 }
 
-.hero-image {
-    /* Style the hero image container */
-    position: relative;
-    background-color: #ccc; /* Placeholder background color */
-    height: 300px; /* Adjust the height based on your content */
-    /* Add more styling as needed for your hero image */
-}
-
-.hero-text-box {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.8); /* Transparent white box */
-    padding: 20px;
-    border-radius: 10px;
-}
-
-#proverbs-list {
+section {
     max-width: 800px;
     margin: 20px auto;
-}
-
-.proverbs-box {
+    padding: 20px;
     background-color: #fafafa;
     border: 1px solid #ccc;
-    border-radius: 10px; /* Slightly rounded corners for the box */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    padding: 20px;
+    border-radius: 10px; /* Slightly rounded corners for sections */
 }
-
-footer {
-    background-color: #ffffff; /* Footer color for all pages */
-    color: #1f2937;
-    text-align: center;
-    padding: 1em;
-    border-radius: 15px; /* Increased roundness for a polished look */
-    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
 
 footer {
     position: fixed;
@@ -99,3 +67,21 @@ footer img {
     margin: 0 10px; /* Add some margin between logos */
 }
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black; /* Text color */
+    overflow: hidden; /* Prevents scrolling */
+}
+
+/* White Box for Text Content */
+.content-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
