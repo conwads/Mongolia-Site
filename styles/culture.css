@@ -4,6 +4,7 @@ body {
     padding: 0;
     background-color: #fafafa;
     color: black;
+    font-size: 25px; /* Increase the font size as desired */
 }
 
 header,
@@ -31,7 +32,7 @@ nav a {
     text-decoration: none;
     color: #1f2937;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 30px;
     transition: color 0.3s ease-in-out;
 }
 
