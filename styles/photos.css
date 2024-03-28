@@ -5,20 +5,24 @@ body {
 }
 
 header {
-    background-color: #fafafa; /* Header color for all pages */
+    background-color: #fafafa;
     color: #1f2937;
     text-align: center;
     padding: 1em;
-    border-radius: 15px; /* Increased roundness for a polished look */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 section {
-    max-width: 100%;
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    border-radius: 10px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 20px;
-    padding: 20px;
 }
 
 .photo {
@@ -52,31 +56,16 @@ nav a {
 }
 
 nav a:hover {
-    color: #FFD700; /* Hover color - Gold */
-}
-
-section {
-    max-width: 30%;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fafafa;
-    border: 1px solid #ccc;
-    border-radius: 10px; /* Slightly rounded corners for sections */
+    color: #FFD700;
 }
 
 footer {
-    background-color: #ffffff; /* Footer color for all pages */
+    background-color: #ffffff;
     color: #1f2937;
     text-align: center;
     padding: 1em;
-    border-radius: 15px; /* Increased roundness for a polished look */
-    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-footer {
+    border-radius: 15px;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -87,9 +76,31 @@ footer {
 }
 
 footer img {
-    width: 200px; /* Adjust the width as needed */
-    height: auto; /* Maintain the aspect ratio */
+    width: 200px;
+    height: auto;
     cursor: pointer;
-    margin: 0 10px; /* Add some margin between logos */
+    margin: 0 10px;
 }
 
+.photo:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.full-screen-image-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.full-screen-image-overlay img {
+    max-width: 90%;
+    max-height: 90%;
+}
