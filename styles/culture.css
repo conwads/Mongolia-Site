@@ -40,6 +40,19 @@ nav a:hover {
     color: #FFD700;
 }
 
+.icon {
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding-top: 10px;
+    width: 80px;
+}
+
+.logo {
+    width: 5%;
+}
+
+
 section {
     max-width: 60%;
     margin: 20px auto;

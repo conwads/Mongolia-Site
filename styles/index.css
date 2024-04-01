@@ -5,6 +5,7 @@ body {
     background-color: #fafafa; /* Background color for all pages */
     color: #1f2937; /* Text color */
     font-size: 25px;
+    padding-bottom: 100px; /* Ensure space for button at the bottom */
 }
 
 header,
@@ -15,6 +16,18 @@ footer {
     padding: 1.5em;
     border-radius: 15px; /* Increased roundness for a polished look */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.icon {
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding-top: 10px;
+    width: 80px;
+}
+
+.logo {
+    width: 5%;
 }
 
 nav ul {
@@ -67,4 +80,39 @@ footer img {
     margin: 0 10px; /* Add some margin between logos */
 }
 
-    
+.video-link {
+    margin: 20px auto;
+}
+
+.video-link button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.video-link button:hover {
+    background-color: #063208; /* Darker green on hover */
+    cursor: pointer; /* Change cursor to a pointer on hover */
+}
+
+#youtubeLink {
+    padding: 27px;
+    background-color: #45a049;
+    border-radius: 52px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 25px; /* Adjust the font size as needed */
+    color: white; /* Set the text color to white */
+}
+
+#youtubeLink:hover {
+    cursor: pointer; /* Change cursor to a hand on hover */
+}

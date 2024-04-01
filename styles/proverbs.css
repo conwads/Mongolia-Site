@@ -51,6 +51,19 @@ section {
     border-radius: 10px; /* Slightly rounded corners for sections */
 }
 
+.icon {
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding-top: 10px;
+    width: 80px;
+}
+
+.logo {
+    width: 5%;
+}
+
+
 footer {
     position: fixed;
     bottom: 0;
