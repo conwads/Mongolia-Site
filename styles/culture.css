@@ -52,7 +52,6 @@ nav a:hover {
     width: 5%;
 }
 
-
 section {
     max-width: 60%;
     margin: 20px auto;
@@ -62,9 +61,8 @@ section {
     border-radius: 10px;
 }
 
-
 .content img {
-    width: 100%; /* Ensure photos take up full width of the box */
+    max-width: 100%; /* Set maximum width to 100% */
     height: auto;
     border-radius: 10px; /* Optional: Adds rounded corners */
 }
