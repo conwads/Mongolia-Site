@@ -7,6 +7,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     font-size: 18px;
+    position: relative;
 }
 
 header,
@@ -17,6 +18,9 @@ footer {
     padding: 1em;
     border-radius: 15px; /* Increased roundness for a polished look */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    position: fixed;
+    width: 100%;
+    z-index: 100; /* Set higher z-index */
 }
 
 nav ul {
@@ -63,15 +67,13 @@ section {
     width: 5%;
 }
 
-
 footer {
-    position: fixed;
     bottom: 0;
-    width: 100%;
     font-size: 14px;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 100; /* Set higher z-index */
 }
 
 footer img {
@@ -81,21 +83,16 @@ footer img {
     margin: 0 10px; /* Add some margin between logos */
 }
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: black; /* Text color */
-    overflow: hidden; /* Prevents scrolling */
-}
-
-/* White Box for Text Content */
 .content-box {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     background-color: white;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 50px;
+    z-index: 99; /* Set lower z-index */
+    width: 60%; /* Adjust the width as needed */
+    max-width: 800px; /* Adjust the max-width as needed */
+    margin-top: 350px; /* Adjust the vertical position */
+    margin-left: -15%; /* Adjust the horizontal position */
 }
