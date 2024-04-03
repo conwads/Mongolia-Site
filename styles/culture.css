@@ -62,6 +62,13 @@ section {
     border-radius: 10px;
 }
 
+
+.content img {
+    width: 100%; /* Ensure photos take up full width of the box */
+    height: auto;
+    border-radius: 10px; /* Optional: Adds rounded corners */
+}
+
 .box-container {
     display: flex;
     flex-wrap: wrap;
